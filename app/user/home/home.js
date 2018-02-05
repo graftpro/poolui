@@ -35,7 +35,7 @@ app.controller('HomeCtrl', function($scope, $route, dataService, timerService) {
 						 "dataset":"global",
 						 "label":"Total Pool Hashrate",
 						 "key":"hs",
-						 "color":"red",
+						 "color":"#007acc",
 						 "type":["line","area"]}
                     ],
                     allSeries: [],
@@ -64,8 +64,8 @@ app.controller('HomeCtrl', function($scope, $route, dataService, timerService) {
                 datasets: { global: data },
                 options: {
                     series: [
-                        {"axis":"y","id":"global","dataset":"global","label":"Effort","interpolation":{mode: "bundle", tension: 1},"key":"value","color":"green","type":["line"]},
-			{"axis":"y","id":"global1","dataset":"global","label":"Effort","key":"value","color":"green","type":["dot"]}
+                        {"axis":"y","id":"global","dataset":"global","label":"Effort","interpolation":{mode: "bundle", tension: 1},"key":"value","color":"#007acc","type":["line"]},
+			{"axis":"y","id":"global1","dataset":"global","label":"Effort","key":"value","color":"#007acc","type":["dot"]}
                     ],
                     allSeries: [],
                     axes: {
