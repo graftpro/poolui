@@ -21,11 +21,11 @@ a {
 }
 
 a:link { text-decoration: none; },
-a:visited { color: rgb(230, 245, 255); } 
-a:hover   { color: rgb(230, 245, 255); }
+a:visited { color: rgb(64, 196, 255); } 
+a:hover   { color: rgb(64, 196, 255); }
 a:active  {
   transition: color .3s;
-  color: rgb(230, 245, 255);
+  color: rgb(64,196,255);
 }
 
  .panel-subtitle {
@@ -180,6 +180,13 @@ md-tooltip .md-content {
 	}
 }	
 
+.header-logo-wrapper {
+  padding: 15px 15px;
+}
+.header-logo {
+  max-height: 100%;
+}
+
 /* HELPERS */
 .welcome p {
 	padding-left: 25px;
@@ -250,7 +257,7 @@ md-tooltip .md-content {
   -webkit-transform: scale(0.60);
   -moz-transform:scale(0.60);
   font-size: 64px !important;
-  color: rgb(230, 245, 255);
+  color: #fff;
 }
 
 .valid {

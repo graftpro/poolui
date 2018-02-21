@@ -17,8 +17,8 @@ app.controller('ConfigGeneratorCtrl', function($scope) {
 	$scope.example_attr = {
 		'with_mail': false,
 		'with_worker_id': false,
-    'with_pool_address' : 'pool.supportxmr.com',
-    'with_custom_wallet': '43QGgipcHvNLBX3nunZLwVQpF6VbobmGcQKzXzQ5xMfJgzfRBzfXcJHX1tUHcKPm9bcjubrzKqTm69JbQSL4B3f6E3mNCbU',
+    'with_pool_address' : 'us.graftpro.com',
+    'with_custom_wallet': 'G5hGLVfafuHhiE3QLZb8WmdQnmgUP8h5Riqci1RENVvwHmZ3Sw7MLtf9kChRyhfEwtfX2rvGCfsEdHLHeEQ6WsTCSayLdjH',
     'with_custom_worker': 'MyWorker',
     'with_custom_email': 'me@email.com',
     'with_custom_port': '5555',    

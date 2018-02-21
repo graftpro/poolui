@@ -28,8 +28,9 @@
       <div class="container" layout="row" flex>
         <md-sidenav md-is-locked-open="menuOpen" md-component-id="left" md-whiteframe="4" class="sidenav">
           <md-toolbar class="logo">
-			<span class="md-toolbar-tools" style="text-align: center; position: ">
-				<strong><span>GraftPro</span><span style="font-size: 60%; color: rgb(160, 218, 255); vertical-align: -23%;">advanced</span><span style="vertical-align: -31%;"></span></strong>
+			<span class="md-toolbar-tools header-logo-wrapper">
+        <img class="header-logo" src="assets/img/header_logo.png" alt="logo">
+				<!-- <strong><span>GraftPro</span><span style="font-size: 60%; color: rgb(160, 218, 255); vertical-align: -23%;">advanced</span><span style="vertical-align: -31%;"></span></strong> -->
 			</span>
           </md-toolbar>
           <md-list>
@@ -111,9 +112,6 @@
             </div>
           </md-toolbar>
           <div id="content" ng-view flex></div>
-		<div class="footer">
-		powered by <strong><a href="https://github.com/graftpro/nodejs-pool"><i class="fa fa-github"></i>nodejs-pool</a></strong> &amp; <strong><a href="https://github.com/graftpro/poolui"><i class="fa fa-github"></i>poolui</a></strong></br> <span style="font-size: 90%">(mod by <b>GraftPro</b>)</span>
-		</div>
         </md-content>
       </div>
       <!-- Scripts -->
