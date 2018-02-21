@@ -18,16 +18,16 @@ app.controller('FAQCtrl', function($scope, $location, $anchorScroll, $sce, dataS
     $scope.faq = {
         "General" : [
         {
-            title: "What is Monero?",
-            answer: $sce.trustAsHtml("Monero is a cryptocurrency that promises untraceability and privacy. It accomplishes this by obfuscating and encrypting transactions beyond recognition, while allowing you to discreetly view and manage your assets. You can also prove your transactions to a third party if necessary.<br/>"),
+            title: "What is Graft?",
+            answer: $sce.trustAsHtml("Graft is a cryptocurrency that promises untraceability and privacy. It accomplishes this by obfuscating and encrypting transactions beyond recognition, while allowing you to discreetly view and manage your assets. You can also prove your transactions to a third party if necessary.<br/>"),
             media:
             // {
             //     "title": "Simple",
             //     "url": $sce.trustAsResourceUrl("https://www.youtube.com/embed/TZi9xx6aiuY?ecver=1")
             // }
             {
-                "title": "Monero essentials video",
-                "url": $sce.trustAsResourceUrl("https://www.youtube.com/embed/6DQb0cMvU7I?ecver=1")
+                "title": "Graft essentials video",
+                "url": $sce.trustAsResourceUrl("https://youtu.be/BCB_OlIre8U")
             }
         },
 
