@@ -21,7 +21,7 @@ gulp.task('js', function(){
 });
 
 gulp.task('assets', function(){
-  return gulp.src('app/assets/*')
+  return gulp.src('app/assets/**')
     .pipe(connect.reload())
     .pipe(gulp.dest('build/assets'))
 });
