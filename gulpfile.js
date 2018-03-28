@@ -28,8 +28,14 @@ gulp.task('assets', function(){
 
 gulp.task('font', function(){
   return gulp.src('app/vendor/font-awesome/fonts/*')
-	.pipe(connect.reload())
+	  .pipe(connect.reload())
     .pipe(gulp.dest('build/assets/fonts'));
+});
+
+gulp.task('static', function(){
+  return gulp.src(['app/favicon.ico', 'app/robots.txt'])
+	  .pipe(connect.reload())
+    .pipe(gulp.dest('build/'));
 });
 
 gulp.task('fontcss', function(){
@@ -94,5 +100,5 @@ gulp.task('manifest', function(){
     .pipe(gulp.dest('build'));
 });
 
-gulp.task('build', [ 'html', 'css', 'js', 'assets', 'vendor', 'manifest' ]);
+gulp.task('build', [ 'html', 'css', 'js', 'assets', 'vendor', 'manifest', 'static' ]);
 gulp.task('default', [ 'build', 'connect', 'watch' ]);
