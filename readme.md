@@ -1,4 +1,4 @@
-# Monero Pool frontend
+# Graft Pool frontend
 
 ### AngularJS based UI for [nodejs-pool](https://github.com/Snipa22/nodejs-pool)
 
@@ -34,9 +34,3 @@ $ npm install # runs everything, serve from ./build
 * Ship it deployment
 * Websockets
 * Miner graph colour picker
-
-### Support
-* I'm usually on #monero-pools so drop me a line if you need help with something or have a feature request.
-
-#### Coffee :P ?
-42yCGRP2p6bZzMjJxKpJtTFRz2x3X3eBYD97T17zdxC9NiGNWafCaU54MKWBZkHb9AVb4XBgcjkPGW8hjQyBM2vMMvVCzTj
